@@ -1,0 +1,18 @@
+.featured{
+    flex: 4;
+    -webkit-box-shadow: 12px 10px 4px 0px rgba(247,247,247,1);
+    -moz-box-shadow: 12px 10px 4px 0px rgba(247,247,247,1);
+    box-shadow: 12px 10px 4px 0px rgba(247,247,247,1);
+    padding: 10px;
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: grey;
+        
+        .title{
+            font-size: 16px;
+        }
+    }
+}
