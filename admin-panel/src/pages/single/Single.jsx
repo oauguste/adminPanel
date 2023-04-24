@@ -2,6 +2,8 @@ import "./Single.scss";
 
 import NavBar from "../../components/navBar/NavBar";
 import SideBar from "../../components/sideBar/SideBar";
+import Chart from "../../components/chart/Chart";
+import List from "../../components/table/Table";
 
 const Single = () => {
   return (
@@ -46,9 +48,17 @@ const Single = () => {
               </div>
             </div>
           </div>
-          <div className="right"></div>
+          <div className="right">
+            <Chart
+              aspect={3 / 1}
+              title="User Spending (last 6 months)"
+            />
+          </div>
         </div>
-        <div className="bottom"></div>
+        <div className="bottom">
+          <h1 className="title">Last Transactions</h1>
+          <List />
+        </div>
       </div>
     </div>
   );
