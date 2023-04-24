@@ -4,6 +4,8 @@
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.12.0",
+    "@mui/x-data-grid": "^6.2.1",
+    "datagrid": "^0.6.2",
     "dom": "^0.0.3",
     "react": "^18.2.0",
     "react-circular-progressbar": "^2.1.0",
